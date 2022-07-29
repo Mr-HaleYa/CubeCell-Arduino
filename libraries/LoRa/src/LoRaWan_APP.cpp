@@ -386,7 +386,7 @@ static void MlmeConfirm( MlmeConfirm_t *mlmeConfirm )
 				}
 #endif
 				printf("joined\r\n");
-				
+				delay(5);
 				//in PassthroughMode,do nothing while joined
 				if(passthroughMode == false)
 				{
